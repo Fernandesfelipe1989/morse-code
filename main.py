@@ -27,4 +27,5 @@ if __name__ == "__main__":
     _, words = sys.argv[0], sys.argv[1:]
     phrase = " ".join(words)
 
-    print(StringToMorseCode(phrase).convert_to_morse)
+    with open('phrase_morse_code.txt', 'w') as file:
+        file.write(StringToMorseCode(phrase).convert_to_morse)

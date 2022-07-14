@@ -4,4 +4,4 @@
 > pip install -r requirements.txt
  
 ## Converter the string in code morse
-> python main.py 'your-string'
+> python main.py your-string
